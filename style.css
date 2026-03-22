@@ -687,7 +687,7 @@ body {
     
 
 }
-@media  screen and (max-width:900px) {
+@media  screen and (max-width:950px) {
     .Navbar__s2,.Navbar__s4,.Navbar__s5{
         display: none;
     }
@@ -703,6 +703,9 @@ body {
     .Aws{
         display: none;
     }
+    #icon{
+        display: none;
+    }
     
 }
 @media screen and ( max-width:700px){
@@ -711,6 +714,7 @@ body {
     }
     .Explore__containner__1{
         flex-basis: 40%;
+        margin-bottom: 10px;
     }
     .Ads__s1,.Ads__s3{
         display: none;
@@ -731,4 +735,30 @@ body {
     .Foot{
         gap: 20px;
     }
+    .Interest__containner__1,.Interest__containner__2,.Interest__containner__3,.Interest__containner__4{
+        flex-basis:40% ;
+    }
+    .Foot__s2 p{
+        font-size: 10px;
+    }
+    .Foot__s3__logo{
+        margin-bottom: 20px;
+    }
+    .Foot__s4__d{
+        margin-bottom: 10px;
+    }
+    .Where h1{
+        font-size: 30px;
+        margin-left: 50px;
+    }
+    .Search__s1{ width: 300px;
+    height: 60px;
+    gap: 40px;
+    position: relative;
+}
+    .Search__s1__button{
+        height: 50px;
+    }
+    
+    
 }
